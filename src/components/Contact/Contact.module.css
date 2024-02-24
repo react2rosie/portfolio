@@ -76,3 +76,11 @@
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 830px) {
+  .links {
+    img {
+      width: 25px;
+    }
+  }
+}
