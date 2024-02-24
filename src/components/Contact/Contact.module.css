@@ -1,0 +1,124 @@
+@import "../../vars.css";
+
+.container {
+  background-color: var(--color-footer);
+  margin-top: 50px;
+  padding: 0px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.note {
+  h2 {
+    font-family: var(--font-roboto);
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--color-text);
+    letter-spacing: 4px;
+    padding-bottom: 2.5px;
+  }
+  p {
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--color-text);
+    padding-top: 2.5px;
+  }
+}
+
+.links {
+  li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  img {
+    width: 40px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--font-roboto);
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--color-text);
+  letter-spacing: 0.5px;
+}
+.copy {
+  background-color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-roboto);
+  color: var(--color-text);
+  padding: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+  .container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .link {
+    display: none;
+  }
+  .links {
+    text-align: center;
+
+    li {
+      width: 100vw;
+      margin: 0;
+      border-right: solid var(--color-dark) 2.5px;
+    }
+    ul {
+      border-top: solid var(--color-dark) 2.5px;
+      border-bottom: solid var(--color-dark) 2.5px;
+      border-left: solid var(--color-dark) 2.5px;
+      margin: 10px auto 0 auto;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  .note {
+    text-align: center;
+    h2 {
+      font-size: 40px;
+      letter-spacing: 1.75px;
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+  }
+  .container {
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .image {
+    margin-top: 2px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .copy {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "project/project.png",
+    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "skills": ["HTML", "CSS", "React"],
+    "demo": "https//www.example.com"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "project/project.png",
+    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "skills": ["HTML", "CSS", "React"],
+    "demo": "https//www.example.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "project/project.png",
+    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "skills": ["HTML", "CSS", "Sass", "React"],
+    "demo": "https//www.example.com"
+  }
+]
