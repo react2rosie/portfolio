@@ -68,3 +68,19 @@
     color: var(--color-text);
   }
 }
+@media screen and (max-width: 830px) {
+  .container {
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 18px;
+    }
+    li {
+      font-size: 18px;
+    }
+    a {
+      font-size: 20px;
+    }
+  }
+}

@@ -106,13 +106,13 @@
     align-items: center;
     text-align: center;
     h1 {
-      font-size: 50px;
+      font-size: 40px;
     }
     p {
-      font-size: 23px;
+      font-size: 20px;
     }
     a {
-      font-size: 23px;
+      font-size: 20px;
     }
   }
   .img {

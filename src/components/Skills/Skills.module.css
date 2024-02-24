@@ -43,13 +43,21 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .imgContainer {
     width: 90px;
     height: 90px;
 
     img {
       width: 60px;
+    }
+  }
+  .container {
+    p {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 30px;
     }
   }
 }

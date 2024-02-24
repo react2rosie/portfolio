@@ -115,7 +115,14 @@
     box-shadow: none;
     margin: 0px 10%;
     h2 {
+      font-size: 30px;
       margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 18px;
     }
   }
 
