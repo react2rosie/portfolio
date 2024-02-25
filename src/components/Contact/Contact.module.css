@@ -13,18 +13,18 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    border-right: solid var(--color-dark) 2.5px;
+    border-right: solid var(--color-dark) 2px;
   }
 
   ul {
     display: flex;
-    border-top: solid var(--color-dark) 2.5px;
-    border-bottom: solid var(--color-dark) 2.5px;
-    border-left: solid var(--color-dark) 2.5px;
+    border-top: solid var(--color-dark) 2px;
+    border-bottom: solid var(--color-dark) 2px;
+    border-left: solid var(--color-dark) 2px;
   }
 
   img {
-    width: 40px;
+    width: 35px;
   }
 }
 
@@ -32,14 +32,14 @@
   text-decoration: none;
   list-style: none;
   font-family: var(--font-roboto);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--color-text);
   letter-spacing: 0.5px;
 }
 .copy {
   background-color: var(--color-dark);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   font-family: var(--font-roboto);
   color: var(--color-text);
