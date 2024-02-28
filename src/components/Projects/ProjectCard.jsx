@@ -12,14 +12,17 @@ export const ProjectCard = ({
             <img src={getImageUrl(imageSrc)} alt={`image of ${title}`} />
             <h3>{title}</h3>
             <p>{description}</p>
-            <ul>
-                {skills.map((skill, id) => {
-                    return (
-                        <li key={id}>{skill}</li>)
-                })}
-            </ul>
-            <div>
-                <a href={demo} >Demo</a>
+            <div className={styles.highlights}>
+                <ul>
+                    {skills.map((skill, id) => {
+                        return (
+                            <li key={id}>{skill}</li>)
+                    })}
+                </ul>
+                <div>
+                    <a href={demo} >Demo</a>
+                    <a href={demo} >Source code</a>
+                </div>
             </div>
         </div>
     )

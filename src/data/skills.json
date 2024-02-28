@@ -8,6 +8,18 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Vite",
+    "imageSrc": "skills/vite.png"
+  },
+  {
     "title": "REACT",
     "imageSrc": "skills/react.png"
   }

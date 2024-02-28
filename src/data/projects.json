@@ -17,7 +17,7 @@
     "title": "Project C",
     "imageSrc": "project/project.png",
     "description": "This is a roject made using the amazing features of React, HTML and CSS.",
-    "skills": ["HTML", "CSS", "Sass", "React"],
+    "skills": ["HTML", "CSS", "Tailwind", "React"],
     "demo": "https//www.example.com"
   }
 ]
