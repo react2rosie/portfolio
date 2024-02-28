@@ -19,7 +19,7 @@ export const ProjectCard = ({
                             <li key={id}>{skill}</li>)
                     })}
                 </ul>
-                <div>
+                <div className={styles.demo}>
                     <a href={demo} >Demo</a>
                     <a href={demo} >Source code</a>
                 </div>
