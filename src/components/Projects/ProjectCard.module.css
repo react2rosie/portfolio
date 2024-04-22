@@ -13,7 +13,10 @@
   justify-content: space-between;
 
   img {
+    object-fit: cover;
     margin-bottom: 26px;
+    border-radius: 8px;
+    width: 310px;
     min-width: 200px;
     align-self: center;
   }

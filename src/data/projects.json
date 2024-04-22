@@ -1,22 +1,22 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "project/project.png",
-    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "title": "CoffeeRoom",
+    "imageSrc": "project/croom.png",
+    "description": "This project showcases a blog website made using the amazing features of React, HTML and CSS.",
     "skills": ["HTML", "CSS", "React"],
-    "demo": "https//www.example.com"
+    "demo": "https://coffee-room.vercel.app"
   },
   {
     "title": "Project B",
     "imageSrc": "project/project.png",
-    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "description": "This is a project made using the amazing features of React, HTML and CSS.",
     "skills": ["HTML", "CSS", "React"],
     "demo": "https//www.example.com"
   },
   {
     "title": "Project C",
     "imageSrc": "project/project.png",
-    "description": "This is a roject made using the amazing features of React, HTML and CSS.",
+    "description": "This is a project made using the amazing features of React, HTML and CSS.",
     "skills": ["HTML", "CSS", "Tailwind", "React"],
     "demo": "https//www.example.com"
   }
