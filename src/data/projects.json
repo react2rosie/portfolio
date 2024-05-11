@@ -1,10 +1,10 @@
 [
   {
-    "title": "CoffeeRoom",
-    "imageSrc": "project/croom.png",
+    "title": "Project A",
+    "imageSrc": "project/project.png",
     "description": "This project showcases a blog website made using the amazing features of React, HTML and CSS.",
     "skills": ["HTML", "CSS", "React"],
-    "demo": "https://coffee-room.vercel.app"
+    "demo": "https//www.example.com"
   },
   {
     "title": "Project B",
